@@ -5,3 +5,4 @@
 - git:
     local-name: cddeigen
     uri: https://github.com/Naoki-Hiraoka/cddeigen.git
+    version: 1.0
