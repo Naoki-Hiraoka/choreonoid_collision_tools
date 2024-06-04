@@ -12,4 +12,5 @@
 
   <depend>choreonoid</depend>
   <depend>bulleteigen</depend>
+  <depend>choreonoid_qhull</depend>
 </package>

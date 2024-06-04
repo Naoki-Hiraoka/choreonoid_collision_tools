@@ -50,6 +50,7 @@ namespace choreonoid_qhull{
     if(!collisionshape) return nullptr;
     // qhull
     Eigen::MatrixXd vertices = meshToEigen(collisionshape);
+    if(vertices.size()==0) return nullptr;
     cnoid::SgShapePtr ret = generateMeshFromConvexHull(vertices);
     if(ret) ret->setName(collisionshape->name());
     return ret;
